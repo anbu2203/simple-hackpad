@@ -23,3 +23,14 @@ A compact, 4-button macro pad featuring RGB "screensaver" lighting, built using 
 
 ## Schematic
 The switches are wired to pull the pins to Ground (GND). The RGB data line starts at GP0.
+
+### Specifications
+
+BOM: 
+- 4x Cherry MX Switches
+- 4x SK6812 MINI Leds
+- 1x XIAO RP2040
+- 4x Blank DSA Keycaps
+- 4x M3x16 Bolt
+- 4x M3 Heatset
+- 1x soldering iron
