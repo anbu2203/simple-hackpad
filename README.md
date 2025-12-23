@@ -1,36 +1,36 @@
-# simple-hackpad
-A custom 4-key productivity macro pad powered by the Seeed Studio XIAO RP2040 and KMK Firmware. Features dedicated shortcuts for KiCad, Spotify, and system tools, complete with an idle RGB rainbow screensaver.
-# 4-Key Macro Pad (XIAO RP2040)
+# ⌨️ Simple Hackpad
 
-A compact, 4-button macro pad featuring RGB "screensaver" lighting, built using the Seeed Studio XIAO RP2040 and KMK firmware.
+A custom 4-key macro pad designed for productivity and built with the **Seeed Studio XIAO RP2040**. This project uses **KMK Firmware** (CircuitPython) to handle custom keymaps and RGB lighting effects.
 
-## Features
-- **Button 1:** Opens Default Web Browser.
-- **Button 2:** Launches KiCad.
-- **Button 3:** Launches Spotify.
-- **Button 4:** Opens Windows Task Manager.
-- **RGB Lighting:** Continuous "Rainbow" cycle (Screensaver mode).
+## 🛠️ Hardware
+- **Controller:** Seeed Studio XIAO RP2040
+- **Switches:** 4x Mechanical switches
+- **Lighting:** SK6812 / WS2812B RGB LEDs
+- **Design Tool:** KiCad 8.0
 
-## Hardware
-- **MCU:** [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)
-- **Switches:** 4x Mechanical Switches (connected to GP26, GP27, GP28, GP29).
-- **LEDs:** 4x SK6812 Mini RGB LEDs (chained on GP0).
+## 📸 Design Preview
+Below are the design files for the PCB and the 3D model:
 
-## Installation
-1. Install [CircuitPython](https://circuitpython.org/board/seeeduino_xiao_rp2040/) onto your XIAO RP2040.
-2. Download the [KMK Library](https://github.com/KMKfw/kmk_firmware) and copy the `kmk` folder onto the `CIRCUITPY` drive.
-3. Copy the `code.py` from the `/firmware` folder of this repo onto the root of the `CIRCUITPY` drive.
+### PCB Layout
+![PCB Design](README-IMAGES/PCB.png)
 
-## Schematic
-The switches are wired to pull the pins to Ground (GND). The RGB data line starts at GP0.
+### Schematic
+![Schematic](README-IMAGES/schematic.png)
 
-### Specifications
+### 3D CAD View
+![3D CAD](README-IMAGES/CAD.png)
 
-BOM: 
-- 4x Cherry MX Switches
-- 4x SK6812 MINI Leds
-- 1x XIAO RP2040
-- 4x Blank DSA Keycaps
-- 4x M3x16 Bolt
-- 4x M3 Heatset
-- 1x soldering iron
+## 💻 Firmware & Features
+The firmware is built using **KMK**. It includes:
+- **Custom Macros:** Configured for KiCad shortcuts and media controls.
+- **RGB Screensaver:** A rainbow animation that activates to give the pad a "gaming" aesthetic.
+- **CircuitPython:** Easy to edit on the fly by just saving the `code.py` file.
+
+## 📁 Repository Structure
+- `/firmware`: The `code.py` and configuration files for KMK.
+- `/hardware`: KiCad schematic (`.kicad_sch`) and PCB (`.kicad_pcb`) files.
+- `/pcb files`: Production-ready files.
+- `/README-IMAGES`: Visuals used in this documentation.
+
+## 🚀 About the Project
+This project was built as part of the **Hack Club Blueprint** program. It helped me learn the end-to-end process of hardware design, from schematic entry and PCB routing to version control using Git and terminal commands.
