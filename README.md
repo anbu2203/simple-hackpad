@@ -26,7 +26,7 @@ Below are the design files for the PCB and the 3D models:
 ### 3D CAD View - Full Assembly
 ![Simple Hack pad V2](README-IMAGES/simple%20hack%20pad%20v2.png)
 
-### 3D PCD VIEW:
+### 3D PCB VIEW:
 ![PCB 3D](README-IMAGES/PCB%203D.png)
 
 ## 🏗️ Mechanical Source Files
