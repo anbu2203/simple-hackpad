@@ -43,3 +43,12 @@ The firmware is built using **KMK**. It includes:
 
 ## 🚀 About the Project
 This project was built as part of the **Hack Club Blueprint** program. It helped me learn the end-to-end process of hardware design, from schematic entry to firmware implementation.
+
+### Specifications BOM:
+
+- 4x Cherry MX Switches
+- 2x SK6812 MINI Leds
+- 1x XIAO RP2040
+- 4x Blank DSA Keycaps
+- 4x M3x16 Bolt
+- 4x M3 Heatset
