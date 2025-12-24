@@ -24,7 +24,7 @@ Below are the design files for the PCB and the 3D models:
 ![3D CAD Alternative](README-IMAGES/3D%20CAD.png)
 
 ### 3D CAD View - Full Assembly
-![Simple Hackpad V2](README-IMAGES/simple%20hackpad%20v2.png)
+![Simple Hack pad V2](README-IMAGES/simple%20hack%20pad%20v2.png)
 
 ## 🏗️ Mechanical Source Files
 - **[3D Step File](hardware/simple%20hack%20pad%20v2.step):** Full 3D model of the Hackpad.
