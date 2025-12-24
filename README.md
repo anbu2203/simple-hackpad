@@ -26,6 +26,9 @@ Below are the design files for the PCB and the 3D models:
 ### 3D CAD View - Full Assembly
 ![Simple Hack pad V2](README-IMAGES/simple%20hack%20pad%20v2.png)
 
+### 3D PCD VIEW:
+![PCB 3D](README-IMAGES/PCB%203D.png)
+
 ## 🏗️ Mechanical Source Files
 - **[3D Step File](hardware/simple%20hack%20pad%20v2.step):** Full 3D model of the Hackpad.
 - **[Plate DXF](plate-2025-12-15T15_56_35.892Z.dxf):** Laser-cut profile for the switch plate.
