@@ -11,6 +11,7 @@ A custom 4-key macro pad designed for productivity and built with the **Seeed St
 ## 📸 Design Preview
 Below are the design files for the PCB and the 3D model:
 
+
 ### PCB Layout
 ![PCB Design](README-IMAGES/PCB.png)
 
