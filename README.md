@@ -24,7 +24,7 @@ Below are the design files for the PCB and the 3D model:
 ![3D CAD](README-IMAGES/3D CAD.png)
 
 ### 3D CAD View
-![3D CAD](README-IMAGES/simple hackpad v2.png)
+![simple hackpad v2](README-IMAGES/simple hackpad v2.png)
 
 ## 💻 Firmware & Features
 The firmware is built using **KMK**. It includes:
