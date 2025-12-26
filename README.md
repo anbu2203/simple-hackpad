@@ -1,15 +1,7 @@
-# ⌨️ Simple Hackpad
+#  Simple Hackpad
 
-A custom 4-key macro pad designed for productivity and built with the **Seeed Studio XIAO RP2040**. This project uses **KMK Firmware** (CircuitPython) to handle custom keymaps and RGB lighting effects.
+A custom 4-key macro pad designed for productivity and built with the Seeed Studio XIAO RP2040. This project uses KMK Firmware (CircuitPython) to handle custom keymaps and RGB lighting effects.
 
-## 🛠️ Hardware
-- **Controller:** Seeed Studio XIAO RP2040
-- **Switches:** 4x Mechanical switches
-- **Lighting:** SK6812 / WS2812B RGB LEDs
-- **Design Tool:** KiCad 8.0
-
-## 📸 Design Preview
-Below are the design files for the PCB and the 3D models:
 
 ### PCB Layout
 ![PCB Design](README-IMAGES/PCB.png)
@@ -28,6 +20,10 @@ Below are the design files for the PCB and the 3D models:
 
 ### 3D PCB VIEW:
 ![PCB 3D](README-IMAGES/PCB%203D.png)
+
+### 3D full hackpad 
+ ![Simple Hack pad V2 full](README-IMAGES/simple%20hack%20pad%20v2%20full.png)
+
 
 ## 🏗️ Mechanical Source Files
 - **[3D Step File](hardware/simple%20hack%20pad%20v2.step):** Full 3D model of the Hackpad.
